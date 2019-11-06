@@ -11,7 +11,7 @@
       "secret": ""
     },
     "store_id": 0,
-    "language_id": 2,
+    "language_id": 1,
     "auth_endpoint": "http://oc2vanilla.test/vsbridge/auth/admin",
     "product_endpoint": "http://oc2vanilla.test/vsbridge/products/index",
     "category_endpoint": "http://oc2vanilla.test/vsbridge/categories/index",

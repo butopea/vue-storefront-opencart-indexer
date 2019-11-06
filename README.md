@@ -10,6 +10,8 @@ This script will import your data from OpenCart into Vue Storefront (ElasticSear
 * `yarn install`
 * Copy `config.json.example` as `config.json` and edit it to set your VS Bridge credentials, ElasticSearch index name, store ID, language ID, as well as endpoint URLs to match your domain. 
 
+The `username` field should contain OpenCart API name and the `password` field should contain OpenCart API key. 
+
 Note: You need to whitelist your IP address in OpenCart's admin panel.
 
 **Usage:**
