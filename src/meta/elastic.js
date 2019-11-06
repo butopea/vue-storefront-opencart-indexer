@@ -107,6 +107,7 @@ function putMappings(db, indexName, next) {
                 size: { type: "integer" },
                 size_options: { type: "integer" },
                 price: { type: "float" },
+                originalPriceInclTax    : { type: "float" },
                 has_options: { type: "boolean" },
                 special_price: { type: "float" },
                 color: { type: "integer" },
