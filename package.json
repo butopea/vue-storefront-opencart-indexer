@@ -1,8 +1,7 @@
 {
-  "name": "magento1-vsbridge",
+  "name": "vue-storefront-opencart-indexer",
   "version": "1.0.0",
-  "description": "Magento 1 To vue-storefront bridge",
-  "main": "babel-node index.js",
+  "description": "Vue Storefront OpenCart Indexer",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "command-exists": "^1.2.2",
@@ -27,19 +26,5 @@
     "url-parse": "^1.2.0",
     "valid-url": "^1.0.9"
   },
-  "devDependencies": {},
-  "scripts": {
-    "restore": "node node_modules/elasticdump/bin/elasticdump --input=var/catalog.json --output=http://localhost:9200/vue_storefront_magento1",
-    "dump": "node node_modules/elasticdump/bin/elasticdump --output=var/catalog.json --input=http://localhost:9200/vue_storefront_magento1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DivanteLtd/magento1-vsbridge.git"
-  },
-  "author": "Piotr Karwatka",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DivanteLtd/magento1-vsbridge/issues"
-  },
-  "homepage": "https://github.com/DivanteLtd/magento1-vsbridge#readme"
+  "devDependencies": {}
 }
