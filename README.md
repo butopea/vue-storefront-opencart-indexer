@@ -13,7 +13,17 @@ Note: You need to whitelist your IP address in OpenCart's admin panel.
 
 **Usage:**
 
-* Go to the `src` folder and execute `./run.sh`
+* Execute `./run.sh` or alternatively:
+
+```shell
+cd src
+node index.js new
+node index.js attributes
+node index.js taxrules
+node index.js categories
+node index.js products
+node index.js publish
+```
 
 **Development:**
 

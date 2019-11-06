@@ -1,0 +1,21 @@
+{
+  "elasticsearch": {
+    "host": "localhost:9200",
+    "indexName": "vue_storefront_catalog"
+  },
+  "vsbridge": {
+    "url": "http://oc2vanilla.test/vsbridge/",
+    "auth": {
+      "username": "",
+      "password": "",
+      "secret": ""
+    },
+    "store_id": 0,
+    "language_id": 2,
+    "auth_endpoint": "http://oc2vanilla.test/vsbridge/auth/admin",
+    "product_endpoint": "http://oc2vanilla.test/vsbridge/products/index",
+    "category_endpoint": "http://oc2vanilla.test/vsbridge/categories/index",
+    "taxrule_endpoint": "http://oc2vanilla.test/vsbridge/taxrules/index",
+    "attribute_endpoint": "http://oc2vanilla.test/vsbridge/attributes/index"
+  }
+}
